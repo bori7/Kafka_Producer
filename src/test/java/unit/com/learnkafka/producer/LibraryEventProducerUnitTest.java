@@ -1,13 +1,13 @@
-package com.learnkafka.producer;
+package unit.com.learnkafka.producer;
 
+import com.codenotfound.kafka.producer.LibraryEventProducer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.learnkafka.domain.Book;
-import com.learnkafka.domain.LibraryEvent;
+import com.codenotfound.kafka.domain.Book;
+import com.codenotfound.kafka.domain.LibraryEvent;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.TopicPartition;
-import org.apache.kafka.common.protocol.types.Field;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -18,7 +18,6 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.SettableListenableFuture;
-import scala.Int;
 
 import java.util.concurrent.ExecutionException;
 

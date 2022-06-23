@@ -1,4 +1,4 @@
-package com.learnkafka.domain;
+package com.codenotfound.kafka.domain;
 
 public enum LibraryEventType {
     NEW,

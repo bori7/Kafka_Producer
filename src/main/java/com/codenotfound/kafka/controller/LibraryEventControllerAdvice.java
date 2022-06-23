@@ -1,4 +1,4 @@
-package com.learnkafka.controller;
+package com.codenotfound.kafka.controller;
 
 
 import lombok.extern.slf4j.Slf4j;

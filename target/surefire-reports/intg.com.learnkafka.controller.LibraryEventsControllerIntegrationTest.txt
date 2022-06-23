@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: intg.com.learnkafka.controller.LibraryEventsControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 128.035 s <<< FAILURE! - in intg.com.learnkafka.controller.LibraryEventsControllerIntegrationTest
+postLibraryEvent  Time elapsed: 61.125 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to be assigned partitions from the embedded topics
+	at intg.com.learnkafka.controller.LibraryEventsControllerIntegrationTest.setUp(LibraryEventsControllerIntegrationTest.java:56)
+
+putLibraryEvent  Time elapsed: 60.769 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to be assigned partitions from the embedded topics
+	at intg.com.learnkafka.controller.LibraryEventsControllerIntegrationTest.setUp(LibraryEventsControllerIntegrationTest.java:56)
+
